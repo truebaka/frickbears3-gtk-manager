@@ -1,4 +1,4 @@
-#Frickbears 3 Manager is a native Linux GTK4 application for managing Five Nights at Frickbear's 3 installations, mods, and custom guards when running the game through Wine.
+Frickbears 3 Manager is a native Linux GTK4 application for managing Five Nights at Frickbear's 3 installations, mods, and custom guards when running the game through Wine.
 
 It solves the usual pain of modding this game on Linux: instead of manually unzipping archives and copying data.win / audiogroup*.dat / texgroup_* files by hand (and risking overwriting something you needed), the app keeps every game version, mod, and custom guard you import separated on disk, and lets you combine or switch between them instantly.
 
