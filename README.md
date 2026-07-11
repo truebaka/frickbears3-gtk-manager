@@ -16,12 +16,4 @@ Core functionality:
 - Toggle between Russian and English interface language at runtime
 
 ## Building
-Requirements: gcc, GTK4 dev headers (gtk4 on Arch, libgtk-4-dev on Debian/Ubuntu, gtk4-devel on Fedora), rsync, wine.
-Bash/zsh:
-gcc -O2 -o frickbears3-gtk launcher.c lang.c $(pkg-config --cflags --libs gtk4)
-Fish:
-gcc -O2 -o frickbears3-gtk launcher.c lang.c (pkg-config --cflags --libs gtk4 | string split " ")
-Run:
-./frickbears3-gtk
-
-The tool does not include the game or any mods itself — it only manages and automates the installation process for content the user already has. Everything is stored under the user's home directory, with no system-wide installation or root access required beyond installing the build dependencies (Wine, GTK4, gcc, rsync).
+is just binary file lol
